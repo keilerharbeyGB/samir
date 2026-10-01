@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4f1ec;
+    font-family: 'Trebuchet MS';
+}
+header{
+    width: 90%;
+    margin: auto;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e8e2d9;
+}
+#logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#SS{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #2f2f2f;
+}
+#fotologo{
+    margin-left: 10px;
+}
+#menu{
+    width: 60%;
+}
+#nave{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#nave li a{
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#nave li a:hover{
+    color: #8a8178;
+}
+
+#principal{
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e8e2d9;
+}
+#info1{
+    width: 40%;
+    text-align: center;
+}
+#info1 h1{
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #2f2f2f;
+}
+#texto1{
+font-family: 'Trebuchet MS', sans-serif;
+font-size: 18px;
+line-height: 1.5;
+color: #5a5a5a;
+}
+
+#boton{
+    background-color: #3a3a3a;
+    border: none;
+    padding: 12px 25px;
+}
+#boton a{
+    font-family:'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#boton:hover{
+background-color: #8a8178;
+}
+
+#foto-principal{
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+footer{
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    border-top: 2px dashed #b8b0a5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3f1ec;
+}
+#ultimo{
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+#iconos i{
+    margin: 0 8px;
+    color: #5a5a5a;
+}
+
+/* PRODUCTOS */
+
+#productos{
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #f4f1ec;
+}
+
+#productos h1{
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #2f2f2f;
+}
+#productos p{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-top: 20px;
+}
+
+#productos1{
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.producto{
+    width: 210px;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #d8d2c8;
+    display: inline-block;
+}
+.producto img{
+    width: 210px;
+    height: 270px;
+    object-fit: cover;
+}
+.producto h2{
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #2f2f2f;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.producto p{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: #5a5a5a;
+    margin-top: 10px;
+}
+.producto:hover{
+    background-color: #f8f6f2;
+}
+
+
+/* SECCION HOMBREEEEEEEE */
+#hombre{
+    width: 90%;
+    margin: auto;
+    min-height: 500px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #ddebf0;
+}
+#hombre h1{
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #34495e;
+}
+#hombre p{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #526a78;
+    margin-top: 20px;
+}
+#hombre1{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
